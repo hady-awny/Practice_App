@@ -15,6 +15,7 @@ class Home extends StatelessWidget {
         body: ListView.builder(itemBuilder: buildCategoryWidget,
           itemCount:categoryList.length,)
 
+
     );
   }
 }
